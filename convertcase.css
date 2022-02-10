@@ -1,0 +1,36 @@
+/*
+https://convertcase.net/
+*/
+* {
+  font-family: monospace;
+  color: #8aebff !important;
+}
+*::-webkit-scrollbar {
+  width: 5px !important;
+}
+*::-webkit-scrollbar-track {
+  background: #0000 !important;
+}
+*::-webkit-scrollbar-thumb {
+  background: #555a !important;
+  border-radius: 5px !important;
+}
+::selection {
+  background: #1a1a2e !important;
+  color: #ff00ff !important;
+}
+#container {
+  background: #0000 !important;
+  min-height: 85vh !important;
+}
+div,
+a {
+  background: #0000 !important;
+}
+body {
+  background: #090909 !important;
+}
+#content {
+  background: #0d0d0d !important;
+  min-height: 75vh !important;
+}

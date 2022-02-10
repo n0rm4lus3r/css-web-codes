@@ -1,0 +1,45 @@
+/*
+https://www.wikipedia.org/,
+https://en.wikipedia.org/,
+https://es.wikipedia.org/
+*/
+* {
+  font-family: monospace !important;
+  color: #8aebff;
+}
+*::-webkit-scrollbar {
+  width: 5px !important;
+}
+*::-webkit-scrollbar-track {
+  background: #0000 !important;
+}
+*::-webkit-scrollbar-thumb {
+  background: #555a !important;
+  border-radius: 5px !important;
+}
+::selection {
+  background: #1a1a2e !important;
+  color: #ff00ff !important;
+}
+body,
+div,
+a,
+tbody,
+tr,
+td,
+th {
+  background: #090909 !important;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #8aebff !important;
+}
+h1,
+h2 {
+  border-bottom: 1px solid #ff47f9 !important;
+}
+.mw-body {
+  border: 0px solid #ff47f9 !important;
+}

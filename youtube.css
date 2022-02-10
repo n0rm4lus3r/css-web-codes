@@ -1,0 +1,16 @@
+/*
+https://www.youtube.com/
+*/
+* {
+  background: #0000000d !important;
+  border: 0px !important;
+  color: #8aebff !important;
+  font-family: monospace !important;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+::selection {
+  background: #1a1a2e !important;
+  color: #ff00ff !important;
+}

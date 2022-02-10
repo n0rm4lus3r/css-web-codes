@@ -1,0 +1,35 @@
+/*
+https://duckduckgo.com/
+*/
+* {
+  font-family: monospace !important;
+  color: #8aebff;
+}
+*::-webkit-scrollbar {
+  width: 5px !important;
+}
+*::-webkit-scrollbar-track {
+  background: #0000 !important;
+}
+*::-webkit-scrollbar-thumb {
+  background: #555a !important;
+  border-radius: 5px !important;
+}
+::selection {
+  background: #1a1a2e !important;
+  color: #ff00ff !important;
+}
+.detail__panes {
+  height: 100vh !important;
+}
+
+/*
+#090909
+#090909
+#ff2970
+#d25eff
+#cccccc
+#33faff
+#0d0d0d
+new window : on
+*/
