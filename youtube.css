@@ -2,9 +2,8 @@
 https://www.youtube.com/
 */
 * {
-  background: #0000000d !important;
   border: 0px !important;
-  color: #8aebff !important;
+  color: #e0e0e0;
   font-family: monospace !important;
 }
 *::-webkit-scrollbar {
@@ -13,4 +12,38 @@ https://www.youtube.com/
 ::selection {
   background: #1a1a2e !important;
   color: #ff00ff !important;
+}
+html:not(.style-scope)[dark],
+:not(.style-scope)[dark] {
+  --yt-spec-brand-background-solid: #070707 !important;
+  --yt-spec-general-background-a: #000 !important;
+  --yt-spec-general-background-b: #050505 !important;
+  --yt-spec-general-background-c: #090909 !important;
+  --yt-spec-text-primary: #e0e0e0 !important;
+
+  --yt-spec-brand-background-primary: #070707 !important;
+  --yt-spec-brand-background-secondary: #070707 !important;
+  --ytd-searchbox-background: #090909 !important;
+  --ytd-searchbox-legacy-button-color: #090909 !important;
+  --yt-spec-badge-chip-background: #0e0e0e !important;
+  --yt-spec-10-percent-layer: #0c0c0c !important;
+  --ytd-searchbox-text-color: #8aebff !important;
+}
+yt-chip-cloud-chip-renderer[chip-style="STYLE_HOME_FILTER"][selected] {
+  background: #0e0e0e !important;
+}
+.gstl_50 {
+  border: 0 !important;
+  opacity: 90% !important;
+}
+[class="sbsb_a"],
+[role="listbox"],
+[role="presentation"],
+[role="option"] {
+  background: #000 !important;
+  color: #e0e0e0 !important;
+}
+/*disable : "Report search predictions"*/
+.sbfl_a .sbfl_b {
+  display: none !important;
 }
